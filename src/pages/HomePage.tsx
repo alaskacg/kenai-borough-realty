@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Search, Shield, FileCheck, DollarSign, Award } from 'lucide-react';
+import EmpireNetwork from '../components/EmpireNetwork';
 
 export default function HomePage() {
   return (
@@ -156,6 +157,10 @@ export default function HomePage() {
             Create Free Account
           </Link>
         </div>
+      </section>
+
+      <section className="py-12">
+        <EmpireNetwork currentSite="kenai-borough-realty" />
       </section>
     </div>
   );
